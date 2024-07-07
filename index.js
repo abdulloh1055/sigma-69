@@ -22,4 +22,4 @@ button.addEventListener("click",(event) =>{
     let result = data.result[toCur.toUpperCase()]*amount
     h2.textContent = result + toCur.toUpperCase(); 
   });
-});
+});        

@@ -11,17 +11,16 @@ body {
     font-style: italic;
 }
 
-.container {
-    text-align: center;
-    background-color: white ;
-    padding: 20px;
-    border-radius: 10px;
-}
+
 
 h1 {
     font-size: 40px;
     color: blue;
     margin-bottom: 20px;
+}
+
+p { 
+    font-weight: bold;
 }
 
 button, input[type="submit"] {
@@ -36,10 +35,15 @@ button, input[type="submit"] {
     border-radius: 11px;
 }
 
+button {
+    margin-top: 20px;
+}
+
 input {
+    border: none;
     padding: 10px;
     border: 1px solid rgb(203, 203, 203);
-    border-radius: 18px;
+    border-radius: 8px;
     width: calc(100% - 22px);
     margin: 10px 0;
     font-size: 1em;
@@ -60,4 +64,5 @@ select{
     background-color: blueviolet;
     color: white;
     font-style: italic;
+    padding: 5px;
 }
